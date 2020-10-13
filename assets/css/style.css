@@ -91,23 +91,22 @@ body {
     margin: 0;
 }
 
-#down-btn {
-    position: absolute;
-    size: 10%;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#down-btn-icon {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
 }
 
 .namePlate {
     font-size: 50pt;
     margin: 0;
-    position: absolute;
-    color: #fff;
+    position: relative;
+    color: rgb(217, 236, 234);
     text-shadow: 4px 4px #111;
     text-align: center;
-    top: 25%;
-    left: 20%;
+    padding-top: 10%;
     transform: translate(-50%, -50%);
 
 }
@@ -434,6 +433,11 @@ body {
 }
 
 @media screen and (max-width:768px) {
+
+    .namePlate {
+        font-size: xx-large;
+    }
+
     .navTrigger {
         display: block;
     }
